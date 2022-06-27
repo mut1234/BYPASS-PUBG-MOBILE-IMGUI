@@ -78,4 +78,4 @@ use
   colors[ImGuiCol_ModalWindowDimBg]       = ImVec4(1.00f, 0.00f, 0.00f, 0.35f);
 
 
-use this site for style https://github.com/ocornut/imgui/issues/707
+use this site for more style https://github.com/ocornut/imgui/issues/707
