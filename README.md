@@ -12,7 +12,7 @@ have many misc like ipad view slider , small crosshair eazy can active in the ga
 ![image](https://user-images.githubusercontent.com/44782684/176041629-0feb925b-af45-4ffd-ad32-a9c9ac4112ad.png)
 
 
-for source of exe ConsoleApplication2.exe https://github.com/mut1234/skip-gameloop-eviroment-message/tree/main/ConsoleApplication2 its for skip gameloop enviroment meesage
+for source of exe ConsoleApplication2.exe https://github.com/mut1234/skip-gameloop-eviroment-message/tree/main/ConsoleApplication2 its for skip gameloop enviroment meesage use ui_3.21.3804.80 without replace all ui just replace https://cdn.discordapp.com/attachments/740652161435959327/991106593691287662/AndroidEmulatorEx.zip
 
 for change imgui style anytime only just change imgui_draw.cpp 
 for expamle
