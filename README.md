@@ -1,11 +1,14 @@
 # BYPASS-PUBG-MOBILE-IMGUI
 The source is very good with beautiful imgui
 this my work i gift it for every one
+enjoy 
+this my discord https://discord.gg/VyRTg6XdTA
 
 
 
 ![image](https://user-images.githubusercontent.com/44782684/176041466-a8b94bcf-7084-4e3c-841b-f35f0f5f5b40.png)
-![image](https://user-images.githubusercontent.com/44782684/176041600-c92c8032-2f14-4aa7-89b3-e0cc4ed646e0.png)
+have many misc like ipad view slider , small crosshair eazy can active in the game.
+![image](https://user-images.githubusercontent.com/44782684/176043981-232a4b94-f390-4b4e-a82e-a24aa52b17b8.png)
 ![image](https://user-images.githubusercontent.com/44782684/176041629-0feb925b-af45-4ffd-ad32-a9c9ac4112ad.png)
 
 
