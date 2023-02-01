@@ -8,7 +8,7 @@ enjoy
 the new discord https://discord.gg/UUsad2hurW
 this my discord https://discord.gg/VyRTg6XdTA
 
-
+my new account Nomad#9335
 
 ![image](https://user-images.githubusercontent.com/44782684/176041466-a8b94bcf-7084-4e3c-841b-f35f0f5f5b40.png)
 have many misc like ipad view slider , small crosshair eazy can active in the game.
