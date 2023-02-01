@@ -1,4 +1,6 @@
 # BYPASS-PUBG-MOBILE-IMGUI
+*to fix source and all run problem use this short video*
+https://mega.nz/file/9FR1RZxB#TsPNftedocNbWYsCOAu430qWiB33N24aE_iijWnKQFs
 The source is very good with beautiful imgui
 this my work i gift it for every one
 enjoy 
