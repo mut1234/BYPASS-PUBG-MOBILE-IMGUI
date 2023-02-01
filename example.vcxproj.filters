@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mem.cpp" />
+    <ClCompile Include="Discord.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\connection_win.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\discord_register_win.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\discord_rpc.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\dllmain.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\rpc_connection.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="discord-rpc-master\src\serialization.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{d9cee197-056b-42cf-90d9-e2e20d8ad45d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{2e1ad97b-365e-4f3c-a0a5-16d10f2cc436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{17042966-0056-4ba1-b29f-925e277f9bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{f89f66eb-043d-497e-8d01-86a8ef61c7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{ff4c69c6-1181-445c-b803-863138bd4299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{fc065c7d-ec89-4470-8a60-85da4ccfa126}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Discord.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\backoff.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\connection.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\msg_queue.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\rpc_connection.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="discord-rpc-master\src\serialization.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Memx.h" />
+    <ClInclude Include="gui.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="keyauth\auth.hpp" />
+    <ClInclude Include="keyauth\skStr.h" />
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="example.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rcdata1.bin" />
+    <None Include="hookdrv.sys" />
+    <None Include="adb.exe" />
+    <None Include="AdbWinApi.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\NEW CODES\XD\xc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="keyauth\libcurl.lib" />
+    <Library Include="keyauth\library_x86.lib" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+PUT Ruda-Bold.ttf in C:\Windows or if you not do that bypass will not work
