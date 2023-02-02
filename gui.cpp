@@ -1,8 +1,8 @@
 #include "gui.h"
 
-#include "../imgui/imgui.h"
-#include "../imgui/imgui_impl_dx9.h"
-#include "../imgui/imgui_impl_win32.h"
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_dx9.h"
+#include "imgui/imgui_impl_win32.h"
 #include <Settings.h>
 #include <main.h>
 #include <thread>
@@ -646,7 +646,9 @@ void gui::CreateImGui() noexcept
 	ImGui::CreateContext();
 	ImGuiIO& io = ::ImGui::GetIO();
 	//io.Fonts->AddFontDefault();
-	io.Fonts->AddFontFromFileTTF("C:\Windows\Ruda-Bold.ttf", 17.0f);
+	io.Fonts->AddFontFromFileTTF("C:/Windows/Ruda-Bold.ttf", 17.0f);
+	//io.Fonts->AddFontFromFileTTF("../Ruda-Bold.ttf", 17.0f);
+
 
 	//io.Fonts->AddFontFromFileTTF("../misc/fonts/Roboto-Medium.ttf", 16.0f);
 	//io.Fonts->AddFontFromFileTTF("../misc/fonts/Cousine-Regular.ttf", 15.0f);
