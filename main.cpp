@@ -1048,6 +1048,7 @@ Sleep(3000);
 		
 		//put your offest here 
 //memory.WriteBytes(ANOGSBase + 0x443536, new BYTE[]{ 0x00, 0x00, 0x00, 0x00 }, true);
+WriteUE4Float(0x5483064, 250.000f, pid, UE4Base, phandle);//ipad
 
 
 	//resume(pid);
