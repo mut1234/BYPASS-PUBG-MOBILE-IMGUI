@@ -994,27 +994,7 @@ entrypoint:
 	//DWORD pid = getGagaProcId();
 	HANDLE phandle = OpenProcess(PROCESS_ALL_ACCESS, 0, pid);
 
-	short c = 10;
-	DWORD libtersafeheader = gettersafeheader();
-	DWORD GCloud = getGCloud();
-	DWORD Tprt = gettrptheader();
-
-	DWORD trptheader = gettrptheader();
-	unsigned long libue4header = getue4header();
-
-	if (libtersafeheader == 0 || libue4header == 0)
-	{
-
-
-		std::cout << "try again" << std::endl;
-
-
-		goto entrypoint;
-	}
-
-	else
-	{
-		
+	
 		int UE4Base,  ANOGSBase; 
 		int PTRBase;
 		int TDMBase;
@@ -1033,6 +1013,21 @@ entrypoint:
 		GCLOUDCORE = ReadMemoryEx<int>(0xE0C0DA8, phandle);
 		ANORTBase = ReadMemoryEx<int>(0xE0C07A8, phandle);
 		CSBase = ReadMemoryEx<int>(0xE0C3268, phandle);
+		if (ANOGSBase == 0 || UE4Base == 0)
+	{
+
+
+		std::cout << "try again" << std::endl;
+
+
+		goto entrypoint;
+	}
+
+
+	else
+	{
+		
+		
 
 
 		//CString str1;// to print header agous
